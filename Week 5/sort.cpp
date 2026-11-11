@@ -109,7 +109,8 @@ void quicksort(int a[], int l, int r){
     a[j] = tmp2;
     quicksort(a,l,j-1);
     quicksort(a,j+1,r);
-}}
+}
+}
 int main(){
     int a[] = {8,7,5,2,4,3,1,6};
     int n = 8;
